@@ -23,10 +23,10 @@ def total_fuel(module):
         return 0
 
 
-# Calculate the mass for each module
-mass = [total_fuel(module) for module in modules]
+# Calculate the fuel required for each module
+fuel = [total_fuel(module) for module in modules]
 
-# Add of the masses together
-answer = sum(mass)
+# Add of the fuel requirements together
+answer = sum(fuel)
 
 print('Answer is', answer)

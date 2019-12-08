@@ -14,10 +14,10 @@ def calculate_fuel(module):
     return math.floor(module/3)-2
 
 
-# Calculate the mass for each module
-mass = [calculate_fuel(module) for module in modules]
+# Calculate the fuel required for each module
+fuel = [calculate_fuel(module) for module in modules]
 
-# Add of the masses together
-answer = sum(mass)
+# Add of the fuel requirements together
+answer = sum(fuel)
 
 print('Answer is', answer)
